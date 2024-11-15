@@ -1,0 +1,10 @@
+package com.ipartek.bases;
+
+public class ArraysEjemplo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

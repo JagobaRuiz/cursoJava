@@ -1,0 +1,19 @@
+package com.ipartek.bases.colecciones;
+
+import java.util.TreeMap;
+
+public class TreeMapEjemplo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		var dic = new TreeMap<String, String>();
+		
+		dic.put("House", "Casa");
+		dic.put("Dog", "Perro");
+		dic.put("Teacher", "Profesor");
+		
+		System.out.println(dic);
+
+	}
+
+}

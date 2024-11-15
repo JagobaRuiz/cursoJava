@@ -1,0 +1,22 @@
+package com.ipartek.bases;
+
+import java.util.Arrays;
+
+public class ArraysEjemplo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int[] arr = new int[3];
+		arr[0] = 10;
+		arr[1] = 20;
+		arr[2] = 30;
+		
+		
+		System.out.println(Arrays.toString(arr));
+		
+		char[][] tablero = new char[10][8];
+		System.out.println(tablero.length);
+	}
+
+}
