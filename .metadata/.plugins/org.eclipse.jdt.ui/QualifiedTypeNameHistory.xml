@@ -8,8 +8,10 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthOptionPaneUI"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.lang.SuppressWarnings"/>
     <fullyQualifiedTypeName name="com.ipartek.bibliotecas.Consola"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
 </qualifiedTypeNameHistroy>
