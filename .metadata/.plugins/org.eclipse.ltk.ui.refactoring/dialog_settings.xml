@@ -9,6 +9,7 @@
 		<item key="height" value="400"/>
 	</section>
 	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item key="qualifyReferences" value="false"/>
 	</section>
 	<section name="ExternalizeWizard.dialogBounds">
 		<item key="DIALOG_X_ORIGIN" value="592"/>
