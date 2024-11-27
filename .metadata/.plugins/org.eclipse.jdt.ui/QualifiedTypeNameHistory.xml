@@ -24,4 +24,9 @@
     <fullyQualifiedTypeName name="com.ipartek.almacen.accesodatos.DaoProducto"/>
     <fullyQualifiedTypeName name="com.ipartek.almacen.accesodatos.DaoProductoTreeMap"/>
     <fullyQualifiedTypeName name="com.ipartek.bibliotecas.Consola"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
 </qualifiedTypeNameHistroy>

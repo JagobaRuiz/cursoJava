@@ -7,6 +7,9 @@ import java.util.TreeMap;
 import com.ipartek.almacen.pojos.Producto;
 
 public class DaoProductoTreeMap implements DaoProducto {
+	/*
+	 * TreeMap es para almacenar en memoria
+	 * */
 	protected TreeMap<Long, Producto> productos = new TreeMap<>();
 
 	// SINGLETON
@@ -14,11 +17,11 @@ public class DaoProductoTreeMap implements DaoProducto {
 	 * Singleton es un patrón de diseño creacional que garantiza que tan solo exista un objeto de su tipo y
 	 * proporciona un único punto de acceso a él para cualquier otro código.*/
 	
-		public static DaoProductoTreeMap getInstancia() {
+		/*public static DaoProductoTreeMap getInstancia() {
 			return INSTANCIA;
 		}
 
-		private static final DaoProductoTreeMap INSTANCIA = new DaoProductoTreeMap();
+		private static final DaoProductoTreeMap INSTANCIA = new DaoProductoTreeMap();*/
 		
 		protected DaoProductoTreeMap() {
 			for (long i = 1; i <= 10; i++) {
@@ -26,6 +29,10 @@ public class DaoProductoTreeMap implements DaoProducto {
 			}
 		}
 		// FIN SINGLETON
+		
+		public DaoProductoTreeMap(String url, String user, String pass) {
+			this();
+		}
 
 
 	@Override
