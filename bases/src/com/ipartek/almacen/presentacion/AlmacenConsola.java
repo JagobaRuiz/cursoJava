@@ -2,6 +2,10 @@ package com.ipartek.almacen.presentacion;
 
 import static com.ipartek.bibliotecas.Consola.*;
 
+import java.math.BigDecimal;
+
+import javax.swing.JOptionPane;
+
 import com.ipartek.almacen.accesodatos.DaoProducto;
 import com.ipartek.almacen.fabrica.Fabrica;
 import com.ipartek.almacen.pojos.Producto;
@@ -14,38 +18,52 @@ public class AlmacenConsola {
 	private static final boolean SIN_ID = false;
 
 	private static final boolean CON_ID = true;
+	private static int opcion;
+	
 	
 	public static void main(String[] args) {
-		int opcion;
 
 		do {
 			mostrarMenu();
-			opcion = pedirOpcion();
+			//opcion = pedirOpcion();
 			procesarOpcion(opcion);
 		} while (opcion != SALIR);
 	}
 
 	private static void mostrarMenu() {
-		pl("""
-
-				MENU
-				====
-				1. Listado
-				2. Buscar por id
-				3. Buscar por nombre
-				4. Buscar por precio
-				5. Añadir
-				6. Modificar
-				7. Borrar
+		opcion = Integer.parseInt(JOptionPane.showInputDialog("""
+					MENU
+					====
+					1. Listado
+					2. Buscar por id
+					3. Buscar por nombre
+					4. Buscar por precio
+					5. Añadir
+					6. Modificar
+					7. Borrar
 
 				0. Salir
-
-				""");
+				"""));
+//		pl("""
+//
+//				MENU
+//				====
+//				1. Listado
+//				2. Buscar por id
+//				3. Buscar por nombre
+//				4. Buscar por precio
+//				5. Añadir
+//				6. Modificar
+//				7. Borrar
+//
+//				0. Salir
+//
+//				""");
 	}
 
-	private static int pedirOpcion() {
-		return leerEntero("Selecciona una opción");
-	}
+//	private static int pedirOpcion() {
+//		return leerEntero("Selecciona una opción");
+//	}
 
 	private static void procesarOpcion(int opcion) {
 		switch (opcion) {
@@ -56,8 +74,10 @@ public class AlmacenConsola {
 		case 5 -> anyadir();
 		case 6 -> modificar();
 		case 7 -> borrar();
-		case 0 -> pl("Gracias por usar nuestra aplicación");
-		default -> pl("No existe esa opción");
+		case 0 -> JOptionPane.showMessageDialog(null, "Gracias por usar nuestra aplicación");
+		default -> JOptionPane.showMessageDialog(null, "No existe esa opción");
+//		case 0 -> pl("Gracias por usar nuestra aplicación");
+//		default -> pl("No existe esa opción");
 		}
 	}
 
@@ -72,11 +92,14 @@ public class AlmacenConsola {
 	}
 
 	private static void mostrarLineaProducto(Producto producto) {
-		pl(producto);
+//		pl(producto);
+		JOptionPane.showMessageDialog(null, producto);
+		
 	}
 
 	private static void buscarPorId() {
-		var id = leerLong("Dime el id");
+//		var id = leerLong("Dime el id");
+		var id = Long.parseLong(JOptionPane.showInputDialog("Dime el id"));
 		
 		var producto = DAO.obtenerPorId(id);
 		
@@ -84,7 +107,8 @@ public class AlmacenConsola {
 	}
 
 	private static void mostrarFichaProducto(Producto producto) {
-		pl(producto);
+//		pl(producto);
+		JOptionPane.showMessageDialog(null, producto);
 	}
 
 	private static void buscarPorNombre() {
@@ -96,8 +120,11 @@ public class AlmacenConsola {
 	}
 
 	private static void buscarPorPrecio() {
-		var minimo = leerBigDecimal("Dime el precio mínimo");
-		var maximo = leerBigDecimal("Dime el precio máximo");
+		
+		var minimo =new BigDecimal(JOptionPane.showInputDialog("Dime el precio mínimo"));
+		var maximo =new BigDecimal(JOptionPane.showInputDialog("Dime el precio máximo"));
+//		var minimo = leerBigDecimal("Dime el precio mínimo");
+//		var maximo = leerBigDecimal("Dime el precio máximo");
 		
 		var productos = DAO.obtenerPorPrecio(minimo, maximo);
 		

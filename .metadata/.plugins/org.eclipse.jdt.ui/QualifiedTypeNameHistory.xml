@@ -20,8 +20,6 @@
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.io.ObjectInputStream"/>
-    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
-    <fullyQualifiedTypeName name="com.ipartek.almacen.accesodatos.DaoProducto"/>
     <fullyQualifiedTypeName name="com.ipartek.almacen.accesodatos.DaoProductoTreeMap"/>
     <fullyQualifiedTypeName name="com.ipartek.bibliotecas.Consola"/>
     <fullyQualifiedTypeName name="java.sql.DriverManager"/>
@@ -31,4 +29,12 @@
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="com.ipartek.almacen.accesodatos.AccesoDatosException"/>
     <fullyQualifiedTypeName name="com.ipartek.almacen.accesodatos.DaoCategoria"/>
+    <fullyQualifiedTypeName name="com.ipartek.almacen.accesodatos.DaoProducto"/>
+    <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+    <fullyQualifiedTypeName name="java.util.logging.Level"/>
+    <fullyQualifiedTypeName name="com.ipartek.almacen.negocio.UsuarioNegocio"/>
+    <fullyQualifiedTypeName name="com.ipartek.almacen.negocio.UsuarioNegocioImpl"/>
+    <fullyQualifiedTypeName name="com.ipartek.almacen.fabrica.Fabrica"/>
+    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java.time.LocalTime"/>
 </qualifiedTypeNameHistroy>

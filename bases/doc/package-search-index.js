@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"bases","l":"com.ipartek.almacen.accesodatos"}];updateSearchResults();
