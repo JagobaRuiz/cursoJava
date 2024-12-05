@@ -34,7 +34,7 @@
     <fullyQualifiedTypeName name="java.util.logging.Level"/>
     <fullyQualifiedTypeName name="com.ipartek.almacen.negocio.UsuarioNegocio"/>
     <fullyQualifiedTypeName name="com.ipartek.almacen.negocio.UsuarioNegocioImpl"/>
-    <fullyQualifiedTypeName name="com.ipartek.almacen.fabrica.Fabrica"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
     <fullyQualifiedTypeName name="java.time.LocalTime"/>
+    <fullyQualifiedTypeName name="com.ipartek.almacen.fabrica.Fabrica"/>
 </qualifiedTypeNameHistroy>
