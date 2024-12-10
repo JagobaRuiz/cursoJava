@@ -1,77 +1,46 @@
 package com.ipartek.almacen.pojos;
 
 import java.util.LinkedHashSet;
-import java.util.Objects;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Lob;
+import jakarta.persistence.Table;
+import jakarta.persistence.Transient;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+@Data
+@Entity
+@Table(name = "categorias")
 public class Categoria {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
+	@NotNull
+	@Size(max = 50)
 	private String nombre;
+	@Lob //large object
+	@Size(max = 2000)
 	private String descripcion;
 	
+	@ToString.Exclude
+	@EqualsAndHashCode.Exclude
+	@Builder.Default
+	@Transient
 	private Iterable<Producto> productos = new LinkedHashSet<>();
 
-	public Categoria(Long id, String nombre, String descripcion) {
-		super();
-		this.id = id;
-		this.nombre = nombre;
-		this.descripcion = descripcion;
-	}
-
-	public Long getId() {
-		return id;
-	}
-
-	public void setId(Long id) {
-		this.id = id;
-	}
-
-	public String getNombre() {
-		return nombre;
-	}
-
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
-
-	public String getDescripcion() {
-		return descripcion;
-	}
-
-	public void setDescripcion(String descripcion) {
-		this.descripcion = descripcion;
-	}
-
-	public Iterable<Producto> getProductos() {
-		return productos;
-	}
-	
-	public void setProductos(Iterable<Producto> productos) {
-		this.productos = productos;
-	}
-
-	@Override
-	public int hashCode() {
-		return Objects.hash(descripcion, id, nombre);
-	}
-
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Categoria other = (Categoria) obj;
-		return Objects.equals(descripcion, other.descripcion) && Objects.equals(id, other.id)
-				&& Objects.equals(nombre, other.nombre);
-	}
-
-	@Override
-	public String toString() {
-		return "Categoria [id=" + id + ", nombre=" + nombre + ", descripcion=" + descripcion + "]";
-	}
-	
 	
 
 }

@@ -20,7 +20,7 @@ public abstract class DaoCategoriaJdbc extends DaoJdbc implements DaoCategoria {
 		var nombre = rs.getString("nombre");
 		var descripcion = rs.getString("descripcion");
 
-		return new Categoria(id, nombre, descripcion);
+		return Categoria.builder().id(id).nombre(nombre).descripcion(descripcion).build();
 	}
 
 	protected Categoria ejecutarConsultaUno(String sql, Consumer<PreparedStatement> codigo) {
