@@ -12,19 +12,13 @@ public class DaoUsuarioJpa extends DaoJpa implements DaoUsuario
 
 	@Override
 	public Usuario obtenerPorEmail(String email) {
-		try (var em = FABRICA_JPA.createEntityManager()) {
-			var t = em.getTransaction();
-
-			t.begin();
-
-			var usuario = em.createQuery("from Usuario u join fetch u.rol where u.email = :email", Usuario.class).setParameter("email", email).getSingleResult();
-
-			t.commit();
-
-			return usuario;
-		} catch(NoResultException e) {
-			return null;
-		}
+		return enTransaccion(em -> {
+			try { 
+				return em.createQuery("from Usuario u join fetch u.rol where u.email = :email", Usuario.class).setParameter("email", email).getSingleResult();
+			} catch(NoResultException e) {
+				return null;
+			}
+		});
 	}
 
 }
