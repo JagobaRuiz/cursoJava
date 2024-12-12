@@ -10,6 +10,7 @@
 			<th>Nombre</th>
 			<th>Precio</th>
 			<th>Fecha de caducidad</th>
+			<th>Categoría</th>
 			<th>Opciones</th>
 		</tr>
 	</thead>
@@ -20,6 +21,7 @@
       <td>${p.nombre}</td>
       <td>${p.precio}€</td>
       <td>${p.fechaCaducidad}</td>
+      <td>${p.categoria.nombre}</td>
       <td>
 				<a href="admin/producto?id=${p.id}" class="btn btn-primary btn-sm">Editar</a>
 				<a onclick="javascript:return confirm('¿Estás seguro de que quieres borrar ${p.nombre}?')" href="admin/producto/borrar?id=${p.id}" class="btn btn-danger btn-sm">Borrar</a>
@@ -29,6 +31,7 @@
  </tbody>
  <tfoot class="table-dark">
 		<tr>
+			<td></td>
 			<td></td>
 			<td></td>
 			<td></td>

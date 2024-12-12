@@ -1,5 +1,7 @@
 package com.ipartek.almacen.accesodatos;
 
+import java.util.Collection;
+
 public interface Dao<T> {
 	/*
 	 * El patrón DAO propone separar por completo la lógica de negocio de la lógica para acceder a los datos,
@@ -8,7 +10,7 @@ public interface Dao<T> {
 
 */
 	
-	default Iterable<T> obtenerTodos() {
+	default Collection<T> obtenerTodos() {
 		throw new AccesoDatosException("NO IMPLEMENTADO");
 	}
 

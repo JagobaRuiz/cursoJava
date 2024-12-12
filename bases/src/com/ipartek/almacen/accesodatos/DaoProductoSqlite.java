@@ -1,6 +1,7 @@
 package com.ipartek.almacen.accesodatos;
 
 import java.math.BigDecimal;
+import java.util.Collection;
 
 import com.ipartek.almacen.pojos.Producto;
 
@@ -20,7 +21,7 @@ public class DaoProductoSqlite extends DaoProductoJdbc implements DaoProducto {
 	}
 
 	@Override
-	public Iterable<Producto> obtenerTodos() {
+	public Collection<Producto> obtenerTodos() {
 		/*datosSentencia lo que hace es pasar los parámetros a la query (sustituir las ? por lo que le mandemos) 
 		y luego se manda ya la query con los campos rellenos como parámetro de la función ejecutarConsulta*/
 		return ejecutarConsulta(SQL_SELECT, pst -> datosSentencia(pst));
@@ -45,7 +46,7 @@ public class DaoProductoSqlite extends DaoProductoJdbc implements DaoProducto {
 		return ejecutarConsulta(SQL_SELECT_PRECIO, pst -> datosSentencia(pst, minimo, maximo));
 	}
 	
-	public Iterable<Producto> obtenerPorIdCategoria(Long id) {
+	public Collection<Producto> obtenerPorIdCategoria(Long id) {
 		return ejecutarConsulta(SQL_SELECT_CATEGORIA, pst -> datosSentencia(pst, id));
 	}
 

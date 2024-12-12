@@ -29,19 +29,31 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
-			<item value="org.eclipse.jdt.ui.CompilationUnitEditorbases/src/com/ipartek/almacen/negocio/AdminNegocioImpl.java"/>
+			<item value="/appweb/src/main/webapp/index.jsp"/>
+			<item value="/web/src/main/java/com/ipartek/almacen/controladores/admin/ProductoAdminServlet.java"/>
+			<item value="/bases/src/com/ipartek/almacen/negocio/UsuarioNegocio.java"/>
+			<item value="/web/src/main/webapp/WEB-INF/vistas/admin/producto.jsp"/>
 			<item value="/bases/src/com/ipartek/almacen/accesodatos/DaoProductoJdbc.java"/>
 		</list>
 		<list key="orderedProviders">
-			<item value="org.eclipse.ui.editors"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
 			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
 		</list>
 		<list key="textEntries">
 			<item value="1"/>
 			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
 		</list>
 		<list key="textArray">
-			<item value="adminn"/>
+			<item value="index"/>
+			<item value="prod"/>
+			<item value="usuario"/>
+			<item value="producto.jsp"/>
 			<item value="dao"/>
 		</list>
 	</section>

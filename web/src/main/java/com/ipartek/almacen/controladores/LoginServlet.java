@@ -9,6 +9,9 @@ import jakarta.servlet.http.HttpSession;
 
 import java.io.IOException;
 
+import com.ipartek.almacen.fabrica.Fabrica;
+import com.ipartek.almacen.pojos.Usuario;
+
 /**
  * Servlet implementation class LoginServlet
  */
@@ -34,16 +37,21 @@ public class LoginServlet extends HttpServlet {
 
 		String email = request.getParameter("email");
 		String password = request.getParameter("password");
+		
 
 		// Convertir los datos
 		// Empaquetarlos en objetos
+		
+		var usuario = Usuario.builder().email(email).password(password).build();
+		
 		// Ejecutar la lógica de negocio
+		var usuarioLogueado = Fabrica.getUsuarioNegocio().autenticar(usuario);
 
-		if("jagoba@email.com".equals(email) && "admin".equals(password)) {
+		if(usuarioLogueado != null) {
 			HttpSession session = request.getSession();
 			
 			// Empaquetar datos para la pantalla
-			session.setAttribute("email", email);
+			session.setAttribute("usuario", usuarioLogueado);
 			
 			// Mostrar la siguiente pantalla
 			response.sendRedirect(request.getContextPath()+"/admin/");
