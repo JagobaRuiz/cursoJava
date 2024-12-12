@@ -43,11 +43,9 @@ public class ProductoAdminServlet extends HttpServlet {
 			// Empaquetar datos para la pantalla
 
 			request.setAttribute("producto", producto);
-			request.setAttribute("hoy", LocalDate.now());
-			request.setAttribute("categorias", Fabrica.getAdminNegocio().verCategorias());
-
-
 		}
+		request.setAttribute("hoy", LocalDate.now());
+		request.setAttribute("categorias", Fabrica.getAdminNegocio().verCategorias());
 		
 		// Mostrar la siguiente pantalla
 		request.getRequestDispatcher("/WEB-INF/vistas/admin/producto.jsp").forward(request, response);

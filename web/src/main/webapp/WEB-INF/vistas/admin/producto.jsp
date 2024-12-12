@@ -3,6 +3,7 @@
 <%@ include file="/WEB-INF/vistas/includes/cabecera.jsp"%>
 <p>${producto}</p>
 <p>${errores}</p>
+<p>${categorias}</p>
 <form method="post" action="admin/producto" class="needs-validation" novalidate>
 	<div class="row mb-3">
 		<label for="id" class="col-sm-2 col-form-label">Id</label>
