@@ -20,5 +20,13 @@ public class DaoUsuarioJpa extends DaoJpa implements DaoUsuario
 			}
 		});
 	}
+	
+	@Override
+	public Usuario insertar(Usuario usuario) {
+		return enTransaccion(em -> {
+			em.persist(usuario);
+			return usuario;
+		});
+	}
 
 }

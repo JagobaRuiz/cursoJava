@@ -29,10 +29,18 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
-			<item value="/appweb/src/main/webapp/index.jsp"/>
+			<item value="/web/src/main/java/com/ipartek/almacen/presentacion/ListadoServlet.java"/>
 			<item value="/web/src/main/java/com/ipartek/almacen/controladores/admin/ProductoAdminServlet.java"/>
-			<item value="/bases/src/com/ipartek/almacen/negocio/UsuarioNegocio.java"/>
 			<item value="/web/src/main/webapp/WEB-INF/vistas/admin/producto.jsp"/>
+			<item value="/bases/src/com/ipartek/almacen/accesodatos/DaoUsuarioJpa.java"/>
+			<item value="/bases/src/com/ipartek/almacen/accesodatos/DaoProductoJpa.java"/>
+			<item value="/bases/src/com/ipartek/almacen/accesodatos/DaoProducto.java"/>
+			<item value="/bases/src/com/ipartek/almacen/accesodatos/DaoCategoriaJpa.java"/>
+			<item value="/web/src/main/webapp/WEB-INF/vistas/includes/cabecera.jsp"/>
+			<item value="/web/src/main/java/com/ipartek/almacen/filtros/AdminFilter.java"/>
+			<item value="/web/src/main/java/com/ipartek/almacen/controladores/LoginServlet.java"/>
+			<item value="/appweb/src/main/webapp/index.jsp"/>
+			<item value="/bases/src/com/ipartek/almacen/negocio/UsuarioNegocio.java"/>
 			<item value="/bases/src/com/ipartek/almacen/accesodatos/DaoProductoJdbc.java"/>
 		</list>
 		<list key="orderedProviders">
@@ -41,8 +49,24 @@
 			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
 			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
 			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
 		</list>
 		<list key="textEntries">
+			<item value="1"/>
+			<item value="2"/>
+			<item value="2"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
 			<item value="1"/>
 			<item value="1"/>
 			<item value="1"/>
@@ -50,10 +74,20 @@
 			<item value="1"/>
 		</list>
 		<list key="textArray">
-			<item value="index"/>
+			<item value="list"/>
 			<item value="prod"/>
-			<item value="usuario"/>
+			<item value="servlet"/>
 			<item value="producto.jsp"/>
+			<item value="producto"/>
+			<item value="daousuariojpa"/>
+			<item value="daoproducto"/>
+			<item value="daop"/>
+			<item value="daoca"/>
+			<item value="cab"/>
+			<item value="adminfilter"/>
+			<item value="logi"/>
+			<item value="index"/>
+			<item value="usuario"/>
 			<item value="dao"/>
 		</list>
 	</section>

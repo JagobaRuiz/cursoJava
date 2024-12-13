@@ -32,10 +32,9 @@
 				<ul class="navbar-nav mb-2 mb-lg-0">
 					<c:if test="${sessionScope.usuario.rol.nombre == 'ADMIN'}">
 						<li class="nav-item"><a class="nav-link" href="admin/">Administración</a></li>
-						<li class="navbar-text">${sessionScope.usuario.nombre}</li>
 					</c:if>
 					<c:if test="${sessionScope.usuario != null}">
-						<li class="navbar-text">${sessionScope.email}</li>
+						<li class="navbar-text">${sessionScope.usuario.nombre}</li>
 					</c:if>
 
 					<c:choose>
@@ -44,6 +43,7 @@
 									sesión</a></li>
 						</c:when>
 						<c:otherwise>
+						<li class="nav-item"><a class="nav-link" href="registro">Registro</a></li>
 							<li class="nav-item"><a class="nav-link" href="login">Iniciar
 									sesión</a></li>
 						</c:otherwise>

@@ -54,7 +54,7 @@ public class LoginServlet extends HttpServlet {
 			session.setAttribute("usuario", usuarioLogueado);
 			
 			// Mostrar la siguiente pantalla
-			response.sendRedirect(request.getContextPath()+"/admin/");
+			response.sendRedirect(request.getContextPath()+"/");
 			return;
 		}
 
