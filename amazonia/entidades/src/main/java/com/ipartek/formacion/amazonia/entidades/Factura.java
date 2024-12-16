@@ -29,52 +29,53 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 
 @Entity
-@Table(name="facturas")
+@Table(name = "facturas")
 public class Factura {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	
+
 	@NotNull
 	@NotBlank
-	@Pattern(regexp="\\d{4}/\\d{6}")
+	@Pattern(regexp = "\\d{4}/\\d{6}")
 	@Column(columnDefinition = "CHAR(11)", unique = true)
 	private String numeroFactura;
-	
+
 	@Builder.Default
 	@NotNull
 	@FutureOrPresent
 	private LocalDate fecha = LocalDate.now();
-	
+
 	@ManyToOne
 	private Cliente cliente;
-	
+
 	@NotNull
 	@NotBlank
 	@Pattern(regexp = "[XYZ\\d]\\d{7}[A-Z]")
+	@Size(min = 9, max = 9)
 	@Column(columnDefinition = "CHAR(9)")
 	private String nif;
-	
+
 	@NotNull
 	@NotBlank
-	@Size(max = 50)
+	@Size(min = 2, max = 50)
 	private String nombre;
-	
+
 	@OneToMany
 	private Collection<Linea> lineas;
-	
+
 	@Data
 	@Builder
 	@NoArgsConstructor
 	@AllArgsConstructor
 
 	@Entity
-	@Table(name="factura-lineas")
+	@Table(name = "factura-lineas")
 	public static class Linea {
 		@Id
 		@GeneratedValue(strategy = GenerationType.IDENTITY)
 		private Long id;
-		
+
 		@NotNull
 		@ManyToOne
 		private Factura factura;
@@ -91,7 +92,7 @@ public class Factura {
 		@NotNull
 		@Min(0)
 		private BigDecimal precio;
-		
+
 		@NotNull
 		@Min(0)
 		private Integer cantidad;

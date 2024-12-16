@@ -22,5 +22,4 @@ public class Carrito {
 		private Producto producto;
 		private Integer cantidad;
 	}
-
 }

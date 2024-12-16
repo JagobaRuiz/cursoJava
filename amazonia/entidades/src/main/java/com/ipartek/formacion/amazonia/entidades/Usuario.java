@@ -23,21 +23,21 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 
 @Entity
-@Table(name="usuarios")
+@Table(name = "usuarios")
 public class Usuario {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	
+
 	@NotNull
 	@NotBlank
 	@Email
-	@Size(max=50)
+	@Size(max = 50)
 	private String email;
 	
 	@NotNull
 	@NotBlank
-	@Pattern(regexp="")
+	@Pattern(regexp = "")
 	@Column(length = 100)
 	private String password;
 	
@@ -48,8 +48,4 @@ public class Usuario {
 	
 	@OneToOne
 	private Cliente cliente;
-	
-	
-
-
 }

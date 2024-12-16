@@ -21,22 +21,21 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 
 @Entity
-@Table(name="clientes")
+@Table(name = "clientes")
 public class Cliente {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	
+
 	@NotNull
 	@NotBlank
 	@Pattern(regexp = "[XYZ\\d]\\d{7}[A-Z]")
+	@Size(min = 9, max = 9)
 	@Column(columnDefinition = "CHAR(9)")
 	private String nif;
-	
+
 	@NotNull
 	@NotBlank
-	@Size(max = 50)
+	@Size(min = 2, max = 50)
 	private String nombre;
 }
-	
-	
