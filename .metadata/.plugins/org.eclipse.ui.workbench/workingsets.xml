@@ -7,6 +7,8 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/entidades" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/accesodatos" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fabrica" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/negocio" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/presentacionweb" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1731572240931_2" label="Window Working Set" name="Aggregate for window 1731572240931"/>
 </workingSetManager>

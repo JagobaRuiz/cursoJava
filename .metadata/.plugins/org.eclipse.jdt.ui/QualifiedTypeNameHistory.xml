@@ -41,4 +41,6 @@
     <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
     <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
     <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.TestFactory"/>
+    <fullyQualifiedTypeName name="org.glassfish.jaxb.core.v2.TODO"/>
 </qualifiedTypeNameHistroy>
