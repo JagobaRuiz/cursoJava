@@ -52,5 +52,6 @@
     <module>fabrica</module>
     <module>negocio</module>
     <module>presentacionweb</module>
+    <module>interfaces</module>
   </modules>
 </project>

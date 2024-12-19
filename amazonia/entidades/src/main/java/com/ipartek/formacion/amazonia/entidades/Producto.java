@@ -2,10 +2,12 @@ package com.ipartek.formacion.amazonia.entidades;
 
 import java.math.BigDecimal;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.persistence.Lob;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
@@ -36,4 +38,13 @@ public class Producto {
 	@NotNull
 	@Min(0)
 	private BigDecimal precio;
+	
+	@Lob
+	@Size(min = 3, max = 2000)
+	private String descripcion;
+	
+	@NotNull
+	@Size(min = 3, max = 256)
+	@Column(unique=true)
+	private String url;
 }
