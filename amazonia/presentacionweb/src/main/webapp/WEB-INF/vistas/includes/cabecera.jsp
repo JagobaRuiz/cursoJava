@@ -12,6 +12,12 @@
 <title>Amazonia</title>
 <link rel="icon" href="imgs/shop.svg">
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<script src="js/bootstrap.bundle.min.js"></script>
+<c:if test="${login != null}">
+	<script>
+		window.addEventListener("DOMContentLoaded", () => new bootstrap.Modal('#login').show());
+	</script>
+</c:if>
 </head>
 <body>
 
@@ -29,8 +35,8 @@
 					<li class="nav-item"><a class="nav-link" href="fc/">Principal</a></li>
 				</ul>
 				<ul class="navbar-nav mb-2 mb-lg-0">
-					<c:if test="${sessionScope.usuario.rol.nombre == 'ADMIN'}">
-						<li class="nav-item"><a class="nav-link" href="admin/">Administración</a></li>
+					<c:if test="${sessionScope.usuario != null}">
+						<li class="nav-item"><a class="nav-link" href="fc/admin/">Administración</a></li>
 					</c:if>
 					<c:if test="${sessionScope.usuario != null}">
 						<li class="navbar-text">${sessionScope.usuario.nombre}</li>
@@ -38,18 +44,56 @@
 
 					<c:choose>
 						<c:when test="${sessionScope.usuario != null}">
-							<li class="nav-item"><a class="nav-link" href="logout">Cerrar
+							<li class="nav-item"><a class="nav-link" href="fc/logout">Cerrar
 									sesión</a></li>
 						</c:when>
 						<c:otherwise>
-						<li class="nav-item"><a class="nav-link" href="registro">Registro</a></li>
-							<li class="nav-item"><a class="nav-link" href="login">Iniciar
-									sesión</a></li>
+						<li class="nav-item"><a class="nav-link" href="fc/registro">Registro</a></li>
+							<li class="nav-item"><a class="nav-link"
+								data-bs-toggle="modal" href="#login">Iniciar sesión</a></li>
 						</c:otherwise>
 					</c:choose>
 				</ul>
 			</div>
 		</div>
 	</nav>
+	
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1"
+		aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<form action="fc/login" method="post" class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title fs-5" id="exampleModalLabel">Iniciar
+						sesión</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal"
+						aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<div class="row mb-3">
+						<label for="email" class="col-sm-2 col-form-label">Email</label>
+						<div class="col-sm-10">
+							<input type="email" class="form-control" id="email" name="email"
+								value="${requestScope.usuario.email}">
+						</div>
+					</div>
+					<div class="row mb-3">
+						<label for="password" class="col-sm-2 col-form-label">Contraseña</label>
+						<div class="col-sm-10">
+							<input type="password" class="form-control" id="password"
+								name="password">
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<c:if test="${requestScope.usuario != null}">
+						<div class="text-danger">Usuario o contraseña incorrectos</div>
+					</c:if>
+					<button type="submit" class="btn btn-primary">Iniciar
+						sesión</button>
+				</div>
+			</form>
+		</div>
+	</div>
 
 	<%="<main class='container mt-3 mb-5 pb-5'>" %>

@@ -4,7 +4,5 @@
 <footer class="text-bg-dark p-2 fixed-bottom">
 	<p>&copy;2024 Jagoba Ruiz</p>
 </footer>
-
-<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
