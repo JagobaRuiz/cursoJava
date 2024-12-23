@@ -8941,3 +8941,319 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.wst.sse.core.internal
 2024-12-20 12:06:43,772 [Worker-86: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
 2024-12-20 12:06:46,807 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
 2024-12-20 12:06:46,809 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-20 12:09:18,583 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-20 12:09:18,586 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-20 12:10:16,118 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-20 12:10:16,121 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-20 12:11:23,964 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-20 12:11:23,966 [Worker-88: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-20 12:11:36,661 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-20 12:11:36,661 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-20 12:13:31,542 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-20 12:13:31,544 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-20 12:17:28,972 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-20 12:17:28,974 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-20 12:18:01,868 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-20 12:18:01,872 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-20 12:22:36,634 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-20 12:22:36,636 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-20 12:29:25,703 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-20 12:29:25,704 [Worker-95: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-20 12:30:08,868 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-20 12:30:08,872 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-20 12:37:29,649 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-20 12:37:29,651 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-20 12:38:52,630 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-20 12:38:52,634 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-20 12:42:38,312 [Worker-98: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entidades: com.ipartek.formacion.amazonia:entidades:0.0.1-SNAPSHOT with classifier  to /entidades/target/classes
+2024-12-20 12:42:38,326 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-20 12:42:38,331 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-20 12:44:12,423 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-20 12:44:12,425 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-20 12:45:05,765 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-20 12:45:05,781 [Worker-103: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-20 12:47:47,602 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-20 12:47:47,602 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-20 12:48:12,592 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-20 12:48:12,593 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-20 12:48:19,167 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-20 12:48:19,170 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-20 12:48:59,949 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-20 12:48:59,952 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-20 12:50:21,764 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-20 12:50:21,766 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-20 12:51:48,184 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-20 12:51:48,185 [Worker-109: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-20 12:56:28,523 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-20 12:56:28,526 [Worker-110: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-20 12:56:31,925 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-20 12:56:31,929 [Worker-101: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-20 13:11:00,111 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-20 13:11:00,115 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-20 13:11:57,930 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-20 13:11:57,933 [Worker-107: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-20 13:13:16,363 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-20 13:13:16,365 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-20 13:16:10,375 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-20 13:16:10,378 [Worker-114: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-20 13:16:48,345 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-20 13:16:48,347 [Worker-115: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-20 13:17:57,973 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:391) - ... Waiting for all tasks ending
+2024-12-20 13:17:57,974 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:397) - Closing all component containers
+2024-12-20 13:17:57,976 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:403) - Closing FileSystemHelper
+2024-12-20 13:17:57,977 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:409) - ... Waiting for all tasks ending before shutting down the BackgroundExecutor
+2024-12-20 13:17:57,977 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:414) - Shutting down BackgroundExecutor
+2024-12-20 13:17:57,978 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:420) - Stopping all threads monitoring thread
+2024-12-20 13:17:57,979 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:425) - Closing ThreadHolder
+2024-12-20 13:17:57,980 [Burningwave - Resource releaser] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:430) - Shutting down ThreadSupplier
+2024-12-23 08:21:14,184 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-12-23 08:21:18,799 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/negocio: com.ipartek.formacion.amazonia:negocio:0.0.1-SNAPSHOT with classifier  to /negocio/target/classes
+2024-12-23 08:21:18,800 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/fabrica: com.ipartek.formacion.amazonia:fabrica:0.0.1-SNAPSHOT with classifier  to /fabrica/target/classes
+2024-12-23 08:21:18,801 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/accesodatos: com.ipartek.formacion.amazonia:accesodatos:0.0.1-SNAPSHOT with classifier  to /accesodatos/target/classes
+2024-12-23 08:21:18,811 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entidades: com.ipartek.formacion.amazonia:entidades:0.0.1-SNAPSHOT with classifier  to /entidades/target/classes
+2024-12-23 08:21:19,117 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bases: bases:bases:0.0.1-SNAPSHOT with classifier  to /bases/target/classes
+2024-12-23 08:21:19,135 [Worker-2: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/appweb: com.ipartek.formacion.ejemplos.maven:appweb:0.0.1-SNAPSHOT with classifier  to /appweb/target/classes
+2024-12-23 08:36:11,628 [main] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:368) - Instantiated org.burningwave.core.SLF4JManagedLoggerRepository
+2024-12-23 08:36:11,630 [main] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:369) - 
+
+	Configuration values for static components:
+
+		background-executor.all-tasks-monitoring.enabled=\
+			true
+		background-executor.all-tasks-monitoring.interval=\
+			30000
+		background-executor.all-tasks-monitoring.logger.enabled=\
+			false
+		background-executor.all-tasks-monitoring.minimum-elapsed-time-to-consider-a-task-as-probable-dead-locked=\
+			300000
+		background-executor.all-tasks-monitoring.probable-dead-locked-tasks-handling.policy=\
+			log only
+		background-executor.queued-task-executor[0].name=\
+			Low priority tasks
+		background-executor.queued-task-executor[0].priority=\
+			1
+		background-executor.queued-task-executor[1].name=\
+			Normal priority tasks
+		background-executor.queued-task-executor[1].priority=\
+			5
+		background-executor.queued-task-executor[2].name=\
+			High priority tasks
+		background-executor.queued-task-executor[2].priority=\
+			10
+		background-executor.task-creation-tracking.enabled=\
+			${background-executor.all-tasks-monitoring.enabled}
+		banner.additonal-informations=\
+			${Implementation-Title} ${Implementation-Version}
+		banner.additonal-informations.retrieve-from-manifest-file-with-implementation-title=\
+			Burningwave Core
+		banner.file=\
+			org/burningwave/banner.bwb
+		banner.hide=\
+			true
+		buffer-handler.default-allocation-mode=\
+			ByteBuffer::allocateDirect
+		buffer-handler.default-buffer-size=\
+			1024
+		group-name-for-named-elements=\
+			Burningwave
+		iterable-object-helper.default-values-separator=\
+			;
+		iterable-object-helper.parallel-iteration.applicability.default-minimum-collection-size=\
+			2
+		iterable-object-helper.parallel-iteration.applicability.max-runtime-thread-count-threshold=\
+			autodetect
+		iterable-object-helper.parallel-iteration.applicability.output-collection-enabled-types=\
+			java.util.concurrent.ConcurrentHashMap$CollectionView;\
+			java.util.Collections$SynchronizedCollection;\
+			java.util.concurrent.CopyOnWriteArrayList;\
+			java.util.concurrent.CopyOnWriteArraySet;\
+			java.util.concurrent.BlockingQueue;\
+			java.util.concurrent.ConcurrentSkipListSet;\
+			java.util.concurrent.ConcurrentSkipListMap$EntrySet;\
+			java.util.concurrent.ConcurrentSkipListMap$KeySet;\
+			java.util.concurrent.ConcurrentSkipListMap$Values;
+		jvm.driver.init=\
+			false
+		managed-logger.repository=\
+			autodetect
+		managed-logger.repository.enabled=\
+			true
+		managed-logger.repository.logging.warn.disabled-for=\
+			org.burningwave.core.assembler.ComponentContainer$ClassLoader;\
+			org.burningwave.core.classes.MemoryClassLoader;\
+			org.burningwave.core.classes.PathScannerClassLoader;
+		modules.export-all-to-all=\
+			true
+		resource-releaser.enabled=\
+			true
+		synchronizer.all-threads-monitoring.enabled=\
+			false
+		synchronizer.all-threads-monitoring.interval=\
+			90000
+		thread-supplier.default-daemon-flag-value=\
+			true
+		thread-supplier.default-thread-priority=\
+			5
+		thread-supplier.max-detached-thread-count=\
+			${thread-supplier.max-poolable-thread-count}
+		thread-supplier.max-detached-thread-count.elapsed-time-threshold-from-last-increase-for-gradual-decreasing-to-initial-value=\
+			30000
+		thread-supplier.max-detached-thread-count.increasing-step=\
+			autodetect
+		thread-supplier.max-poolable-thread-count=\
+			autodetect
+		thread-supplier.poolable-thread-request-timeout=\
+			6000
+
+
+2024-12-23 08:36:11,632 [main] INFO  o.b.core.jvm.BufferHandler - (BufferHandler.java:127) - default buffer size: 1024 bytes
+2024-12-23 08:36:11,633 [main] INFO  o.b.core.jvm.BufferHandler - (BufferHandler.java:141) - default allocation mode: ByteBuffer::allocateDirect
+2024-12-23 08:36:11,637 [main] INFO  org.burningwave.core.Cache - (Cache.java:76) - Building cache
+2024-12-23 08:36:11,659 [main] INFO  o.b.c.a.StaticComponentContainer - (StaticComponentContainer.java:443) - org.burningwave.core.assembler.StaticComponentContainer initialized in 0.1071163 seconds
+2024-12-23 09:37:56,108 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 09:37:56,114 [Worker-50: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 09:42:01,097 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 09:42:01,101 [Worker-53: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 11:55:55,367 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 11:55:55,371 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 11:56:59,285 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 11:56:59,288 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 11:57:05,565 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 11:57:05,567 [Worker-76: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 11:57:35,836 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 11:57:35,838 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 11:58:05,479 [Worker-80: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entidades: com.ipartek.formacion.amazonia:entidades:0.0.1-SNAPSHOT with classifier  to /entidades/target/classes
+2024-12-23 11:58:05,614 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-23 11:58:05,623 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-23 11:58:06,295 [Worker-76: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/fabrica: com.ipartek.formacion.amazonia:fabrica:0.0.1-SNAPSHOT with classifier  to /fabrica/target/classes
+2024-12-23 11:58:06,296 [Worker-76: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/accesodatos: com.ipartek.formacion.amazonia:accesodatos:0.0.1-SNAPSHOT with classifier  to /accesodatos/target/classes
+2024-12-23 11:58:06,303 [Worker-76: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entidades: com.ipartek.formacion.amazonia:entidades:0.0.1-SNAPSHOT with classifier  to /entidades/target/classes
+2024-12-23 11:58:25,870 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-23 11:58:25,870 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-23 11:58:52,277 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-23 11:58:52,279 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-23 12:00:36,957 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-23 12:00:36,957 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2024-12-23 12:01:39,268 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:01:39,270 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:02:09,811 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-23 12:02:09,814 [Worker-69: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-23 12:04:36,035 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:04:36,038 [Worker-78: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:05:38,913 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:05:38,914 [Worker-81: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:07:29,493 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:07:29,496 [Worker-79: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:08:53,628 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:08:53,629 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:10:21,205 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:10:21,207 [Worker-80: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:10:50,326 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:10:50,328 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:11:06,635 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:11:06,637 [Worker-83: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:13:59,570 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:13:59,571 [Worker-84: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:14:09,300 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:14:09,301 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:17:59,760 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:17:59,763 [Worker-85: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:18:12,724 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:18:12,740 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:28:57,087 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:28:57,091 [Worker-91: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:29:00,098 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:29:00,100 [Worker-89: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:29:48,278 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-23 12:29:48,282 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-23 12:30:33,961 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\entidades\src\main\resources
+2024-12-23 12:30:33,965 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\entidades\src\test\resources
+2024-12-23 12:30:37,751 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\entidades\src\main\resources
+2024-12-23 12:30:37,753 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\entidades\src\test\resources
+2024-12-23 12:31:22,788 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\entidades\src\main\resources
+2024-12-23 12:31:22,788 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\entidades\src\test\resources
+2024-12-23 12:32:07,440 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:32:07,440 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:32:42,837 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:32:42,840 [Worker-87: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:34:02,747 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:34:02,750 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:34:25,230 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:34:25,234 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:36:21,944 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:36:21,946 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:36:45,092 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:36:45,095 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:36:48,470 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:36:48,473 [Worker-92: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:37:58,971 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-12-23 12:37:59,108 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.ipartek.formacion.amazonia:amazonia:0.0.1-SNAPSHOT @ C:\Users\Html.GALEA_02\java-2789\amazonia\pom.xml.
+2024-12-23 12:37:59,332 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ipartek.formacion.amazonia:accesodatos:0.0.1-SNAPSHOT @ C:\Users\Html.GALEA_02\java-2789\amazonia\accesodatos\pom.xml.
+2024-12-23 12:37:59,427 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entidades: com.ipartek.formacion.amazonia:entidades:0.0.1-SNAPSHOT with classifier  to /entidades/target/classes
+2024-12-23 12:37:59,463 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ipartek.formacion.amazonia:entidades:0.0.1-SNAPSHOT @ C:\Users\Html.GALEA_02\java-2789\amazonia\entidades\pom.xml.
+2024-12-23 12:37:59,484 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ipartek.formacion.amazonia:fabrica:0.0.1-SNAPSHOT @ C:\Users\Html.GALEA_02\java-2789\amazonia\fabrica\pom.xml.
+2024-12-23 12:37:59,490 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/accesodatos: com.ipartek.formacion.amazonia:accesodatos:0.0.1-SNAPSHOT with classifier  to /accesodatos/target/classes
+2024-12-23 12:37:59,498 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entidades: com.ipartek.formacion.amazonia:entidades:0.0.1-SNAPSHOT with classifier  to /entidades/target/classes
+2024-12-23 12:37:59,520 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ipartek.formacion.amazonia:negocio:0.0.1-SNAPSHOT @ C:\Users\Html.GALEA_02\java-2789\amazonia\negocio\pom.xml.
+2024-12-23 12:37:59,526 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/fabrica: com.ipartek.formacion.amazonia:fabrica:0.0.1-SNAPSHOT with classifier  to /fabrica/target/classes
+2024-12-23 12:37:59,527 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/accesodatos: com.ipartek.formacion.amazonia:accesodatos:0.0.1-SNAPSHOT with classifier  to /accesodatos/target/classes
+2024-12-23 12:37:59,532 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entidades: com.ipartek.formacion.amazonia:entidades:0.0.1-SNAPSHOT with classifier  to /entidades/target/classes
+2024-12-23 12:37:59,551 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.ipartek.formacion.amazonia:presentacionweb:0.0.1-SNAPSHOT @ C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\pom.xml.
+2024-12-23 12:37:59,563 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/negocio: com.ipartek.formacion.amazonia:negocio:0.0.1-SNAPSHOT with classifier  to /negocio/target/classes
+2024-12-23 12:37:59,563 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/fabrica: com.ipartek.formacion.amazonia:fabrica:0.0.1-SNAPSHOT with classifier  to /fabrica/target/classes
+2024-12-23 12:37:59,563 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/accesodatos: com.ipartek.formacion.amazonia:accesodatos:0.0.1-SNAPSHOT with classifier  to /accesodatos/target/classes
+2024-12-23 12:37:59,569 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entidades: com.ipartek.formacion.amazonia:entidades:0.0.1-SNAPSHOT with classifier  to /entidades/target/classes
+2024-12-23 12:38:00,317 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /accesodatos/src/main/java
+2024-12-23 12:38:00,319 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /accesodatos/src/main/resources
+2024-12-23 12:38:00,320 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /accesodatos/src/test/java
+2024-12-23 12:38:00,321 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /accesodatos/src/test/resources
+2024-12-23 12:38:00,365 [Worker-87: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: UsuarioJpaDaoTest
+2024-12-23 12:38:00,365 [Worker-87: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating UsuarioJpaDaoTest from maven configuration
+2024-12-23 12:38:00,833 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /entidades/src/main/java
+2024-12-23 12:38:00,834 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /entidades/src/main/resources
+2024-12-23 12:38:00,834 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /entidades/src/test/java
+2024-12-23 12:38:00,834 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /entidades/src/test/resources
+2024-12-23 12:38:00,874 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fabrica/src/main/java
+2024-12-23 12:38:00,875 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fabrica/src/main/resources
+2024-12-23 12:38:00,875 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /fabrica/src/test/java
+2024-12-23 12:38:00,875 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /fabrica/src/test/resources
+2024-12-23 12:38:00,939 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /negocio/src/main/java
+2024-12-23 12:38:00,940 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /negocio/src/main/resources
+2024-12-23 12:38:00,940 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /negocio/src/test/java
+2024-12-23 12:38:00,940 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /negocio/src/test/resources
+2024-12-23 12:38:00,974 [Worker-87: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Reset launch configuration name: AnonimoNegocioImplTest
+2024-12-23 12:38:00,974 [Worker-87: Updating Maven Project] INFO  o.e.m.jdt.internal.UnitTestSupport - Updating AnonimoNegocioImplTest from maven configuration
+2024-12-23 12:38:01,192 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /presentacionweb/src/main/java
+2024-12-23 12:38:01,193 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /presentacionweb/src/main/resources
+2024-12-23 12:38:01,193 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /presentacionweb/src/test/java
+2024-12-23 12:38:01,193 [Worker-87: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /presentacionweb/src/test/resources
+2024-12-23 12:38:01,467 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/negocio: com.ipartek.formacion.amazonia:negocio:0.0.1-SNAPSHOT with classifier  to /negocio/target/classes
+2024-12-23 12:38:01,468 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/fabrica: com.ipartek.formacion.amazonia:fabrica:0.0.1-SNAPSHOT with classifier  to /fabrica/target/classes
+2024-12-23 12:38:01,468 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/accesodatos: com.ipartek.formacion.amazonia:accesodatos:0.0.1-SNAPSHOT with classifier  to /accesodatos/target/classes
+2024-12-23 12:38:01,474 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/entidades: com.ipartek.formacion.amazonia:entidades:0.0.1-SNAPSHOT with classifier  to /entidades/target/classes
+2024-12-23 12:38:01,703 [Worker-87: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for presentacionweb
+2024-12-23 12:38:01,717 [Worker-87: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 6 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 1,00 sec 
+2024-12-23 12:38:02,659 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\entidades\src\main\resources
+2024-12-23 12:38:02,663 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\entidades\src\test\resources
+2024-12-23 12:38:02,742 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-23 12:38:02,749 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2024-12-23 12:38:02,913 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-12-23 12:38:02,916 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2024-12-23 12:38:02,971 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-12-23 12:38:02,972 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\test\resources to target\test-classes
+2024-12-23 12:38:03,097 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:38:03,101 [Worker-93: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:38:03,101 [Worker-93: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of presentacionweb
+2024-12-23 12:38:03,101 [Worker-93: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for presentacionweb
+2024-12-23 12:47:16,497 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\entidades\src\main\resources
+2024-12-23 12:47:16,499 [Worker-98: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\entidades\src\test\resources
+2024-12-23 12:49:40,717 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\entidades\src\main\resources
+2024-12-23 12:49:40,719 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\entidades\src\test\resources
+2024-12-23 12:55:39,898 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:55:39,901 [Worker-104: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:56:47,976 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:56:47,977 [Worker-105: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 12:57:25,222 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\main\resources
+2024-12-23 12:57:25,225 [Worker-97: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\presentacionweb\src\test\resources
+2024-12-23 13:15:10,094 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\entidades\src\main\resources
+2024-12-23 13:15:10,095 [Worker-112: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\Html.GALEA_02\java-2789\amazonia\entidades\src\test\resources

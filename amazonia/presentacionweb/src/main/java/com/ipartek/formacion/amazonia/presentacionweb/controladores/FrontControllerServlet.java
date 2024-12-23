@@ -1,33 +1,41 @@
 package com.ipartek.formacion.amazonia.presentacionweb.controladores;
 
 import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.MultipartConfig;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
+import jakarta.servlet.http.Part;
 import lombok.extern.java.Log;
 
+import java.io.File;
 import java.io.IOException;
+import java.math.BigDecimal;
 import java.util.Arrays;
+import java.util.List;
 
 import com.ipartek.formacion.amazonia.entidades.Producto;
 import com.ipartek.formacion.amazonia.entidades.Usuario;
 
 import static com.ipartek.formacion.amazonia.presentacionweb.controladores.Globales.*;
 
+@MultipartConfig(fileSizeThreshold = 1024 * 1024, maxFileSize = 1024 * 1024 * 5, maxRequestSize = 1024 * 1024 * 5 * 5)
 @Log
 @WebServlet("/fc/*")
 public class FrontControllerServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+	private static final String RUTA_IMGS = "/imgs/";
 
 	protected HttpServletRequest request;
 	protected HttpServletResponse response;
 	protected HttpSession session;
-	
+
 	protected String[] partes;
 
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	protected void doGet(HttpServletRequest request, HttpServletResponse response)
+			throws ServletException, IOException {
 		this.request = request;
 		this.response = response;
 		this.session = request.getSession();
@@ -35,7 +43,6 @@ public class FrontControllerServlet extends HttpServlet {
 		String pathInfo = request.getPathInfo() == null ? "/" : request.getPathInfo();
 		partes = pathInfo.split("/");
 		log.info(Arrays.toString(partes));
-
 
 		// response.getWriter().println(Arrays.toString(partes));
 
@@ -52,7 +59,7 @@ public class FrontControllerServlet extends HttpServlet {
 		default -> response.setStatus(HttpServletResponse.SC_NOT_FOUND);
 		}
 	}
-	
+
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		doGet(request, response);
@@ -68,7 +75,7 @@ public class FrontControllerServlet extends HttpServlet {
 	protected void reenviar(String vista) throws ServletException, IOException {
 		request.getRequestDispatcher(VISTAS + vista).forward(request, response);
 	}
-	
+
 	private void detalle() throws ServletException, IOException {
 		// Recibir información de la petición
 		String sId = request.getParameter("id");
@@ -93,9 +100,15 @@ public class FrontControllerServlet extends HttpServlet {
 		// Ir a la vista
 		reenviar("/detalle.jsp");
 	}
-	
+
 	private void login() throws ServletException, IOException {
-		if ("POST".equals(request.getMethod())) {
+		
+		String error = request.getParameter("error-login");
+
+		if(error != null) {
+			request.setAttribute("errorLogin", error);
+		}
+		if (esPost()) {
 			String email = request.getParameter("email");
 			String password = request.getParameter("password");
 
@@ -110,6 +123,7 @@ public class FrontControllerServlet extends HttpServlet {
 				return;
 			} else {
 				request.setAttribute("usuario", usuario);
+				request.setAttribute("errorLogin", "Usuario o contraseña incorrectos");
 			}
 
 		}
@@ -128,7 +142,7 @@ public class FrontControllerServlet extends HttpServlet {
 	protected void redirigir(String ruta) throws IOException {
 		response.sendRedirect(request.getContextPath() + "/fc" + ruta);
 	}
-	
+
 	private void admin() throws ServletException, IOException {
 		if (partes.length < 3) {
 			adminProductos();
@@ -136,6 +150,9 @@ public class FrontControllerServlet extends HttpServlet {
 		}
 
 		switch (partes[2]) {
+		case "producto" -> adminProducto();
+		case "producto-borrar" -> adminProductoBorrar();
+		case "productos-borrar" -> adminProductosBorrar();
 		default -> notFound();
 		}
 	}
@@ -146,8 +163,103 @@ public class FrontControllerServlet extends HttpServlet {
 		request.setAttribute("productos", productos);
 		reenviar("/admin/productos.jsp");
 	}
-	
+
 	private void notFound() {
 		response.setStatus(HttpServletResponse.SC_NOT_FOUND);
 	}
+
+	private void adminProducto() throws ServletException, IOException {
+		if (esPost()) {
+			String sId = request.getParameter("id");
+			String nombre = request.getParameter("nombre");
+			String sPrecio = request.getParameter("precio");
+			String url = request.getParameter("url");
+			String descripcion = request.getParameter("descripcion");
+
+			Long id = sId.isBlank() ? null : Long.parseLong(sId);
+			BigDecimal precio = new BigDecimal(sPrecio);
+
+			Producto producto = Producto.builder().id(id).nombre(nombre).precio(precio).url(url).descripcion(descripcion).build();
+
+			Producto productoConfirmado;
+
+			if(producto.getId() == null) {
+				productoConfirmado = adminNegocio.anadirProducto(producto);
+			} else {
+				productoConfirmado = adminNegocio.modificarProducto(producto);
+			}
+
+			// https://www.baeldung.com/upload-file-servlet
+			String rutaImagenes = obtenerRutaImagenes();
+
+			Part parteImagen = request.getPart("imagen");
+
+			if(!parteImagen.getSubmittedFileName().isBlank()) {
+				parteImagen.write(rutaImagenes + productoConfirmado.getId() + ".jpg");
+			}
+			
+			redirigir("/admin");
+		} else {
+			// GET
+			String sId = request.getParameter("id");
+			if (sId != null) {
+				var id = Long.parseLong(sId);
+
+				var producto = adminNegocio.detalleProducto(id);
+
+				request.setAttribute("producto", producto);
+			}
+			reenviar("/admin/producto.jsp");
+		}
+	}
+
+	private void adminProductoBorrar() throws IOException {
+		String sId = request.getParameter("id");
+
+		Long id = Long.parseLong(sId);
+
+		adminNegocio.borrarProducto(id);
+
+		String rutaImagenes = getServletContext().getRealPath("") + "/imgs/";
+
+		File ficheroBorrar = new File(rutaImagenes + id + ".jpg");
+
+		ficheroBorrar.delete();
+		
+		borrarImagen(id);
+
+		redirigir("/admin/");
+	}
+	
+	private void adminProductosBorrar() throws IOException {
+		String[] sIds = request.getParameterValues("id");
+
+		List<Long> ids = Arrays.stream(sIds).map(s -> Long.parseLong(s)).toList();
+
+		adminNegocio.borrarProductos(ids);
+		
+		for(Long id: ids) {
+			borrarImagen(id);
+		}
+
+		redirigir("/admin/");
+	}
+	
+	private String obtenerRutaImagenes() {
+		return getServletContext().getRealPath(RUTA_IMGS);
+	}
+
+	private void borrarImagen(Long id) {
+		String rutaImagenes = obtenerRutaImagenes();
+
+		File ficheroBorrar = new File(rutaImagenes + id + ".jpg");
+
+		ficheroBorrar.delete();
+	}
+
+
+	private boolean esPost() {
+		return "POST".equals(request.getMethod());
+	}
+
 }

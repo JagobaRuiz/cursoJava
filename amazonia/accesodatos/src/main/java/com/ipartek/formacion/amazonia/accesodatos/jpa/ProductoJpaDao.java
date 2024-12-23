@@ -1,6 +1,7 @@
 package com.ipartek.formacion.amazonia.accesodatos.jpa;
 
 import java.util.Collection;
+import java.util.List;
 
 import com.ipartek.formacion.amazonia.accesodatos.JpaDao;
 import com.ipartek.formacion.amazonia.accesodatos.ProductoDao;
@@ -34,7 +35,37 @@ public class ProductoJpaDao extends JpaDao implements ProductoDao {
 			}
 		});
 	}
-
 	
+	@Override
+	public Producto insertar(Producto producto) {
+		return enTransaccion(em -> {
+			em.persist(producto);
+			return producto;
+		});
+	}
+
+	@Override
+	public Producto modificar(Producto producto) {
+		return enTransaccion(em -> {
+			em.merge(producto);
+			return producto;
+		});
+	}
+
+	@Override
+	public void borrar(Long id) {
+		enTransaccion(em -> {
+			em.remove(em.find(Producto.class, id));
+			return null;
+		});
+	}
+	
+	@Override
+	public void borrar(List<Long> ids) {
+		enTransaccion(em -> {
+			em.createQuery("delete from Producto where id in :ids").setParameter("ids", ids).executeUpdate();
+			return null;
+		});
+	}
 	
 }

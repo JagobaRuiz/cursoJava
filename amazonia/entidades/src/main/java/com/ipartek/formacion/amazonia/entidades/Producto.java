@@ -40,7 +40,7 @@ public class Producto {
 	private BigDecimal precio;
 	
 	@Lob
-	@Size(min = 3, max = 2000)
+	@Size(max = 2000)
 	private String descripcion;
 	
 	@NotNull

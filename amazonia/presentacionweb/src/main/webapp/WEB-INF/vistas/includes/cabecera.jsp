@@ -12,6 +12,7 @@
 <title>Amazonia</title>
 <link rel="icon" href="imgs/shop.svg">
 <link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/bootstrap-icons.min.css" rel="stylesheet">
 <script src="js/bootstrap.bundle.min.js"></script>
 <c:if test="${login != null}">
 	<script>
@@ -35,7 +36,7 @@
 					<li class="nav-item"><a class="nav-link" href="fc/">Principal</a></li>
 				</ul>
 				<ul class="navbar-nav mb-2 mb-lg-0">
-					<c:if test="${sessionScope.usuario != null}">
+					<c:if test="${sessionScope.usuario.admin}">
 						<li class="nav-item"><a class="nav-link" href="fc/admin/">Administración</a></li>
 					</c:if>
 					<c:if test="${sessionScope.usuario != null}">
@@ -59,9 +60,15 @@
 	</nav>
 	
 	<!-- Modal -->
-	<div class="modal fade" id="login" tabindex="-1"
-		aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" id="login" tabindex="-1"
+		aria-labelledby="login" aria-hidden="true">
 		<div class="modal-dialog">
+		<c:if test="${errorLogin != null}">
+				<div class="alert alert-danger alert-dismissible fade show"
+					role="alert">
+					${errorLogin}
+				</div>
+			</c:if>
 			<form action="fc/login" method="post" class="modal-content">
 				<div class="modal-header">
 					<h1 class="modal-title fs-5" id="exampleModalLabel">Iniciar
@@ -86,9 +93,6 @@
 					</div>
 				</div>
 				<div class="modal-footer">
-					<c:if test="${requestScope.usuario != null}">
-						<div class="text-danger">Usuario o contraseña incorrectos</div>
-					</c:if>
 					<button type="submit" class="btn btn-primary">Iniciar
 						sesión</button>
 				</div>

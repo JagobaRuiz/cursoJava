@@ -29,6 +29,10 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
+			<item value="/bases/src/com/ipartek/almacen/pojos/Usuario.java"/>
+			<item value="/entidades/src/main/java/com/ipartek/formacion/amazonia/entidades/Cliente.java"/>
+			<item value="/presentacionweb/src/main/webapp/WEB-INF/vistas/includes/pie.jsp"/>
+			<item value="/presentacionweb/src/main/webapp/WEB-INF/vistas/includes/cabecera.jsp"/>
 			<item value="/appweb/src/main/webapp/index.jsp"/>
 			<item value="/presentacionweb/src/main/java/com/ipartek/formacion/amazonia/presentacionweb/controladores/FrontControllerServlet.java"/>
 			<item value="/negocio/src/main/java/com/ipartek/formacion/amazonia/negocio/AnonimoNegocio.java"/>
@@ -59,6 +63,10 @@
 			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
 			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
 			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
 			<item value="org.eclipse.debug.ui/org.eclipse.debug.internal.ui.quickaccess.RunQuickAccessComputer"/>
 			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
 			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
@@ -71,6 +79,10 @@
 			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
 		</list>
 		<list key="textEntries">
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
+			<item value="1"/>
 			<item value="2"/>
 			<item value="1"/>
 			<item value="1"/>
@@ -92,6 +104,10 @@
 			<item value="1"/>
 		</list>
 		<list key="textArray">
+			<item value="usua"/>
+			<item value="cliente"/>
+			<item value="pie"/>
+			<item value="cabecera"/>
 			<item value="index"/>
 			<item value="inde"/>
 			<item value="front"/>
