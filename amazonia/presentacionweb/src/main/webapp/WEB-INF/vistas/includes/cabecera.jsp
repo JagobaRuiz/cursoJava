@@ -2,7 +2,7 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib uri="jakarta.tags.core" prefix="c"%>
 <%@ taglib uri="jakarta.tags.fmt" prefix="fmt"%>
-<fmt:setLocale value="es-ES"/>
+<fmt:setLocale value="es-ES" />
 <!doctype html>
 <html lang="es">
 <head>
@@ -22,7 +22,8 @@
 </head>
 <body>
 
-	<nav class="navbar navbar-expand-lg bg-dark sticky-top" data-bs-theme="dark">
+	<nav class="navbar navbar-expand-lg bg-dark sticky-top"
+		data-bs-theme="dark">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="fc/">Amazonia</a>
 			<button class="navbar-toggler" type="button"
@@ -36,6 +37,7 @@
 					<li class="nav-item"><a class="nav-link" href="fc/">Principal</a></li>
 				</ul>
 				<ul class="navbar-nav mb-2 mb-lg-0">
+					<li class="nav-item"><a class="nav-link" href="fc/carrito">Carrito</a></li>
 					<c:if test="${sessionScope.usuario.admin}">
 						<li class="nav-item"><a class="nav-link" href="fc/admin/">Administración</a></li>
 					</c:if>
@@ -49,7 +51,7 @@
 									sesión</a></li>
 						</c:when>
 						<c:otherwise>
-						<li class="nav-item"><a class="nav-link" href="fc/registro">Registro</a></li>
+							<li class="nav-item"><a class="nav-link" href="fc/registro">Registro</a></li>
 							<li class="nav-item"><a class="nav-link"
 								data-bs-toggle="modal" href="#login">Iniciar sesión</a></li>
 						</c:otherwise>
@@ -58,16 +60,15 @@
 			</div>
 		</div>
 	</nav>
-	
+
 	<!-- Modal -->
-	<div class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false" id="login" tabindex="-1"
+	<div class="modal fade" data-bs-backdrop="static"
+		data-bs-keyboard="false" id="login" tabindex="-1"
 		aria-labelledby="login" aria-hidden="true">
 		<div class="modal-dialog">
-		<c:if test="${errorLogin != null}">
+			<c:if test="${errorLogin != null}">
 				<div class="alert alert-danger alert-dismissible fade show"
-					role="alert">
-					${errorLogin}
-				</div>
+					role="alert">${errorLogin}</div>
 			</c:if>
 			<form action="fc/login" method="post" class="modal-content">
 				<div class="modal-header">
@@ -100,4 +101,4 @@
 		</div>
 	</div>
 
-	<%="<main class='container mt-3 mb-5 pb-5'>" %>
+	<%="<main class='container mt-3 mb-5 pb-5'>"%>

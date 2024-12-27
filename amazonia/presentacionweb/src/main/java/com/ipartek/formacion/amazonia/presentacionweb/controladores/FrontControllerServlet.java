@@ -18,6 +18,7 @@ import java.util.List;
 
 import com.ipartek.formacion.amazonia.entidades.Producto;
 import com.ipartek.formacion.amazonia.entidades.Usuario;
+import com.ipartek.formacion.amazonia.entidades.Carrito;
 
 import static com.ipartek.formacion.amazonia.presentacionweb.controladores.Globales.*;
 
@@ -56,9 +57,22 @@ public class FrontControllerServlet extends HttpServlet {
 		case "login" -> login();
 		case "logout" -> logout();
 		case "admin" -> admin();
-		default -> response.setStatus(HttpServletResponse.SC_NOT_FOUND);
+		case "carrito" -> carrito();
+		case "facturar" -> facturar();
+		default -> notFound();
 		}
 	}
+	
+	private void facturar() throws ServletException, IOException {
+		var carrito = (Carrito) session.getAttribute("carrito");
+
+		var factura = usuarioNegocio.facturar(carrito);
+
+		request.setAttribute("factura", factura);
+
+		reenviar("/factura.jsp");
+	}
+
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
@@ -127,7 +141,8 @@ public class FrontControllerServlet extends HttpServlet {
 			}
 
 		}
-
+		// Atributo que marca a la cabecera para lanzar un JavaScript que visualice el
+		// modal de Login
 		request.setAttribute("login", "");
 
 		reenviar("/index.jsp");
@@ -137,6 +152,28 @@ public class FrontControllerServlet extends HttpServlet {
 		session.invalidate();
 
 		redirigir("/");
+	}
+	
+	private void carrito() throws IOException, ServletException {
+	
+		if (partes.length >= 3) {
+			String sId = request.getParameter("id");
+
+			Long id = Long.parseLong(sId);
+			
+			var carrito = (Carrito) session.getAttribute("carrito");
+			var producto = adminNegocio.detalleProducto(id);
+
+			switch (partes[2]) {
+			case "anadir" -> carrito.agregarProducto(producto);
+			case "quitar" -> carrito.quitarProducto(producto);
+			}
+			
+			redirigir("/carrito");
+			return;
+		}
+
+		reenviar("/carrito.jsp");
 	}
 
 	protected void redirigir(String ruta) throws IOException {
@@ -177,10 +214,20 @@ public class FrontControllerServlet extends HttpServlet {
 			String descripcion = request.getParameter("descripcion");
 
 			Long id = sId.isBlank() ? null : Long.parseLong(sId);
-			BigDecimal precio = new BigDecimal(sPrecio);
+			BigDecimal precio =  sPrecio.isBlank() ? null : new BigDecimal(sPrecio);
 
 			Producto producto = Producto.builder().id(id).nombre(nombre).precio(precio).url(url).descripcion(descripcion).build();
+			
+			var errores = adminNegocio.validarProducto(producto);
 
+			if(errores.size() > 0) {
+				request.setAttribute("errores", errores);
+				request.setAttribute("producto", producto);
+
+				reenviar("/admin/producto.jsp");
+				return;
+			}
+			
 			Producto productoConfirmado;
 
 			if(producto.getId() == null) {

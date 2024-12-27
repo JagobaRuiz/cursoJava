@@ -12,34 +12,37 @@
 	<div class="row mb-3">
 		<label for="nombre" class="col-sm-2 col-form-label">Nombre</label>
 		<div class="col-sm-10">
-			<input type="text"required class="form-control" id="nombre" name="nombre" value="${producto.nombre}">
-<!-- 			<div class="invalid-feedback">El nombre no se puede dejar vacío</div> -->
+			<input type="text"required class="form-control ${errores.nombre != null ? 'is-invalid' : '' }" id="nombre" name="nombre" value="${producto.nombre}">
+			<div class="invalid-feedback">${errores.nombre}</div>
 		</div>
 	</div>
 	<div class="row mb-3">
 		<label for="precio" class="col-sm-2 col-form-label">Precio</label>
 		<div class="col-sm-10">
-			<input type="number" required min="0" step=".01" class="form-control" id="precio" name="precio" value="${producto.precio}">
-<!-- 			<div class="invalid-feedback">El precio es obligatorio y no puede ser negativo</div> -->
+			<input type="number" required min="0" step=".01" class="form-control ${errores.precio != null ? 'is-invalid' : '' }" id="precio" name="precio" value="${producto.precio}">
+			<div class="invalid-feedback">${errores.precio}</div>
 		</div>
 	</div>
 	<div class="row mb-3">
 		<label for="url" class="col-sm-2 col-form-label">URL</label>
 		<div class="col-sm-10">
-			<input type="text" class="form-control" id="url" name="url" value="${producto.url}">
+			<input type="text" class="form-control ${errores.url != null ? 'is-invalid' : '' }" id="url" name="url" value="${producto.url}">
+			<div class="invalid-feedback">${errores.url}</div>
 		</div>
 	</div>
 	<div class="row mb-3">
 		<label for="imagen" class="col-sm-2 col-form-label">Imagen</label>
 		<div class="col-sm-10">
-			<input type="file" accept="image/jpeg" class="form-control" id="imagen" name="imagen">
+			<input type="file" accept="image/jpeg" class="form-control ${errores.imagen != null ? 'is-invalid' : '' }" id="imagen" name="imagen">
+			<div class="invalid-feedback">${errores.imagen}</div>
 		</div>
 	</div>
 	<div class="row mb-3">
 		<label for="descripcion" class="col-sm-2 col-form-label">Descripción</label>
 		<div class="col-sm-10">
-			<textarea rows="7" class="form-control" id="descripcion"
+			<textarea rows="7" class="form-control ${errores.descripcion != null ? 'is-invalid' : '' }" id="descripcion"
 				name="descripcion">${producto.descripcion}</textarea>
+				<div class="invalid-feedback">${errores.descripcion}</div>
 		</div>
 	</div>
 	

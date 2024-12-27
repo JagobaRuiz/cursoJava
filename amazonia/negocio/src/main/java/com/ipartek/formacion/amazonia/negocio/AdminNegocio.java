@@ -10,6 +10,5 @@ public interface AdminNegocio extends AnonimoNegocio{
 	Producto modificarProducto(Producto producto);
 	void borrarProducto(Long id);
 	void borrarProductos(List<Long> ids);
-	boolean validar(Producto producto);
-	Map<String, String> errores(Producto producto);
+	Map<String, String> validarProducto(Producto producto);
 }

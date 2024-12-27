@@ -5,16 +5,20 @@
 <div class="card mb-3">
 	<div class="row g-0">
 		<div class="col-md-4">
-			<img src="imgs/${producto.id}.jpg" class="img-fluid rounded-start" alt="...">
+			<img src="imgs/${producto.id}.jpg" class="img-fluid rounded-start"
+				alt="...">
 		</div>
 		<div class="col-md-8">
 			<div class="card-body">
 				<h5 class="card-title">${producto.nombre}</h5>
 				<div class="card-text">${producto.descripcion}</div>
 				<p class="card-text">
-					<small class="text-body-secondary">
-						<fmt:formatNumber type="currency" value="${producto.precio}"/>
+					<small class="text-body-secondary"> <fmt:formatNumber
+							type="currency" value="${producto.precio}" />
 					</small>
+				</p>
+				<p class="card-text">
+					<a href="fc/carrito/anadir?id=${producto.id}" class="btn btn-primary"><i class="bi bi-cart4"></i> Añadir al carrito</a>
 				</p>
 			</div>
 		</div>
