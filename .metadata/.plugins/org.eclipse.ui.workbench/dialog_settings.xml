@@ -29,6 +29,7 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
+			<item value="/presentacionweb/src/main/java/com/ipartek/formacion/amazonia/presentacionweb/controladores/Globales.java"/>
 			<item value="/presentacionweb/src/main/webapp/WEB-INF/vistas/includes/cabecera.jsp"/>
 			<item value="/presentacionweb/src/main/java/com/ipartek/formacion/amazonia/presentacionweb/controladores/FrontControllerServlet.java"/>
 			<item value="/presentacionweb/src/main/webapp/WEB-INF/vistas/admin/productos.jsp"/>
@@ -73,6 +74,7 @@
 			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
 			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
 			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
+			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
 			<item value="org.eclipse.debug.ui/org.eclipse.debug.internal.ui.quickaccess.RunQuickAccessComputer"/>
 			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
 			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
@@ -83,6 +85,7 @@
 			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
 		</list>
 		<list key="textEntries">
+			<item value="1"/>
 			<item value="1"/>
 			<item value="1"/>
 			<item value="1"/>
@@ -110,6 +113,7 @@
 			<item value="1"/>
 		</list>
 		<list key="textArray">
+			<item value="glob"/>
 			<item value="cabecera"/>
 			<item value="front"/>
 			<item value="productos"/>
