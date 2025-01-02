@@ -29,6 +29,7 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
+			<item value="/accesodatos/pom.xml"/>
 			<item value="/presentacionweb/src/main/java/com/ipartek/formacion/amazonia/presentacionweb/controladores/Globales.java"/>
 			<item value="/presentacionweb/src/main/webapp/WEB-INF/vistas/includes/cabecera.jsp"/>
 			<item value="/presentacionweb/src/main/java/com/ipartek/formacion/amazonia/presentacionweb/controladores/FrontControllerServlet.java"/>
@@ -38,7 +39,6 @@
 			<item value="/web/src/main/webapp/WEB-INF/vistas/ficha.jsp"/>
 			<item value="/accesodatos/src/main/java/com/ipartek/formacion/amazonia/accesodatos/ProductoDao.java"/>
 			<item value="/bases/src/com/ipartek/almacen/pojos/Usuario.java"/>
-			<item value="/entidades/src/main/java/com/ipartek/formacion/amazonia/entidades/Cliente.java"/>
 			<item value="/presentacionweb/src/main/webapp/WEB-INF/vistas/includes/pie.jsp"/>
 			<item value="/appweb/src/main/webapp/index.jsp"/>
 			<item value="/negocio/src/main/java/com/ipartek/formacion/amazonia/negocio/AnonimoNegocio.java"/>
@@ -113,6 +113,7 @@
 			<item value="1"/>
 		</list>
 		<list key="textArray">
+			<item value="pom"/>
 			<item value="glob"/>
 			<item value="cabecera"/>
 			<item value="front"/>
@@ -122,7 +123,6 @@
 			<item value="ficha"/>
 			<item value="productodao"/>
 			<item value="usua"/>
-			<item value="cliente"/>
 			<item value="pie"/>
 			<item value="index"/>
 			<item value="inde"/>
