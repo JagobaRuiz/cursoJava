@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html th:fragment="plantilla(titulo, contenido)" xmlns:th="http://www.thymeleaf.org">
+<html th:fragment="plantilla(titulo, contenido)"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity6">
 <head>
 <meta charset="UTF-8">
 <title th:replace="${titulo}">Amazonia Spring</title>
@@ -7,6 +9,26 @@
 <body>
 
 <h1>Amazonia Spring</h1>
+<nav>
+		<ul>
+			<li>
+				<a th:href="@{/registro}" href="registro.html">Registro</a>
+			</li>
+			<li sec:authorize="isAuthenticated()">
+				<span th:remove="tag" sec:authentication="name">USUARIO</span>
+				<span sec:authentication="principal.authorities">[ROLE_USER, ROLE_ADMIN]</span>
+			</li>
+			<li sec:authorize="!isAuthenticated()"><a th:href="@{/login}"
+				href="login.html">Iniciar sesión</a></li>
+			<li sec:authorize="isAuthenticated()">
+				<form th:action="@{/logout}" method="post">
+					<button>Cerrar sesión</button>
+				</form>
+			</li>
+			<li sec:authorize="hasRole('ROLE_ADMIN')"><a
+				th:href="@{/admin/productos}" href="admin/productos.html">Administración</a></li>
+		</ul>
+	</nav>
 
 <main th:replace="${contenido}">
 	CONTENIDO
