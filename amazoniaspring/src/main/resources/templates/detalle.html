@@ -4,5 +4,6 @@
 <title>Amazonia Spring Detalle Producto</title>
 <main>
 	<p th:text="${producto}">Producto</p>
+	<a th:href="@{/carrito(id=${producto.id})}" href="carrito.html">Añadir a carrito</a>
 </main>
 </html>
