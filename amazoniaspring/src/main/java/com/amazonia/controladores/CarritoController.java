@@ -54,6 +54,7 @@ public class CarritoController {
 	
 	@GetMapping("/facturar")
 	public String facturar(Principal principal, Model modelo) {
+		//Principal es el usuario logeado y Model el carrito
 		if (principal != null) {
 			var usuario = usuarioService.obtenerPorEmail(principal.getName());
 			
