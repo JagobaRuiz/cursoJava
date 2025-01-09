@@ -5,12 +5,19 @@
 <title>Registro Ipartex</title>
 
 <main class="container">
-	<form th:action="@{/registrarse}" action="index.html" th:object="${usuario}" method="post">
+	<form th:action="@{/registrarse}" action="index.html" th:object="${usuario}" method="post" enctype="multipart/form-data">
 		<div class="row mb-3">
 			<label for="nombre" class="col-sm-2 col-form-label">Nombre</label>
 			<div class="col-sm-10">
 				<input type="text" class="form-control" th:classappend="${#fields.hasErrors('nombre')}? 'is-invalid'" th:field="*{nombre}">
 				<div class="invalid-feedback" th:errors="*{nombre}"></div>
+			</div>
+		</div>
+		<div class="row mb-3">
+			<label for="usuarioIpartex" class="col-sm-2 col-form-label">Usuario Ipartex</label>
+			<div class="col-sm-10">
+				<input type="text" class="form-control" th:classappend="${#fields.hasErrors('usuarioIpartex')}? 'is-invalid'" th:field="*{usuarioIpartex}">
+				<div class="invalid-feedback" th:errors="*{usuarioIpartex}"></div>
 			</div>
 		</div>
 		<div class="row mb-3">
@@ -25,6 +32,12 @@
 			<div class="col-sm-10">
 				<input type="password" class="form-control" th:classappend="${#fields.hasErrors('password')}? 'is-invalid'" th:field="*{password}">
 				<div class="invalid-feedback" th:errors="*{password}"></div>
+			</div>
+		</div>
+		<div class="row mb-3">
+			<label for="imagen" class="col-sm-2 col-form-label">Imagen de perfil</label>
+			<div class="col-sm-10">
+				<input type="file" class="form-control" name="imagen" accept="image/jpeg">
 			</div>
 		</div>
 		<button type="submit" class="btn btn-primary">Registrarse</button>

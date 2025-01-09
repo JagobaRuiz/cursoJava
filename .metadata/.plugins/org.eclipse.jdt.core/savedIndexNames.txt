@@ -10,6 +10,7 @@ INDEX VERSION 1.134+C:\Users\Html.GALEA_02\java-2789\.metadata\.plugins\org.ecli
 3723150601.index
 2575855716.index
 1573014015.index
+40873373.index
 2868423877.index
 2940620685.index
 789923395.index
@@ -68,10 +69,12 @@ INDEX VERSION 1.134+C:\Users\Html.GALEA_02\java-2789\.metadata\.plugins\org.ecli
 1505968831.index
 702597740.index
 3069387846.index
+3391113316.index
 4200151847.index
 599592217.index
-3391113316.index
+1268514257.index
 224074869.index
+144896943.index
 586453223.index
 1729952926.index
 578506987.index
@@ -85,8 +88,8 @@ INDEX VERSION 1.134+C:\Users\Html.GALEA_02\java-2789\.metadata\.plugins\org.ecli
 71840676.index
 1886580555.index
 110490206.index
-2099050638.index
 2870744282.index
+2099050638.index
 1843065657.index
 2801530749.index
 31584579.index
@@ -108,6 +111,7 @@ INDEX VERSION 1.134+C:\Users\Html.GALEA_02\java-2789\.metadata\.plugins\org.ecli
 1850155231.index
 3703366652.index
 1619928360.index
+549464399.index
 1235250325.index
 1641099811.index
 2476136047.index
@@ -144,6 +148,7 @@ INDEX VERSION 1.134+C:\Users\Html.GALEA_02\java-2789\.metadata\.plugins\org.ecli
 2013621323.index
 775461798.index
 1532301881.index
+3607938354.index
 3138461387.index
 1685531015.index
 1853856499.index
@@ -153,9 +158,9 @@ INDEX VERSION 1.134+C:\Users\Html.GALEA_02\java-2789\.metadata\.plugins\org.ecli
 1511556505.index
 1777617288.index
 3476734374.index
-342377772.index
 2330433741.index
 1861646669.index
+342377772.index
 3358712730.index
 2595021507.index
 3017787966.index
@@ -167,13 +172,13 @@ INDEX VERSION 1.134+C:\Users\Html.GALEA_02\java-2789\.metadata\.plugins\org.ecli
 4177563888.index
 3952579901.index
 3720123147.index
-34021419.index
-921712225.index
 3803023366.index
+921712225.index
 1290624789.index
+34021419.index
+2257015751.index
 4191700836.index
 2415950391.index
-2257015751.index
 1464682797.index
 3583725323.index
 2116511440.index
@@ -199,9 +204,9 @@ INDEX VERSION 1.134+C:\Users\Html.GALEA_02\java-2789\.metadata\.plugins\org.ecli
 2287397685.index
 1425701060.index
 3194168413.index
-1809053820.index
-1042285633.index
 1695209818.index
+1042285633.index
+1809053820.index
 2380869913.index
 143512480.index
 260799367.index
@@ -230,6 +235,7 @@ INDEX VERSION 1.134+C:\Users\Html.GALEA_02\java-2789\.metadata\.plugins\org.ecli
 2395752853.index
 3859938810.index
 2821203220.index
+2666468246.index
 3508035459.index
 1961801561.index
 1067236495.index
@@ -245,5 +251,6 @@ INDEX VERSION 1.134+C:\Users\Html.GALEA_02\java-2789\.metadata\.plugins\org.ecli
 371422633.index
 1494981875.index
 2484993756.index
+3277144472.index
 2002239574.index
 2768616644.index

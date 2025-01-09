@@ -30,7 +30,7 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
-			<item value="@+ &apos;passwordEncoder&apos; (@Bean) PasswordEncoder@file:///C:/Users/Html.GALEA_02/java-2789/amazoniaspring/src/main/java/com/amazonia/config/WebSecurityConfig.java415,102758103"/>
+			<item value="search.in.help"/>
 			<item value="/amazoniaspring/src/main/java/com/amazonia/repositorios/UsuarioRepository.java"/>
 			<item value="/accesodatos/pom.xml"/>
 			<item value="/presentacionweb/src/main/java/com/ipartek/formacion/amazonia/presentacionweb/controladores/Globales.java"/>
@@ -60,7 +60,7 @@
 			<item value="/bases/src/com/ipartek/almacen/accesodatos/DaoProductoJdbc.java"/>
 		</list>
 		<list key="orderedProviders">
-			<item value="org.eclipse.lsp4e/org.eclipse.lsp4e.operations.symbols.WorkspaceSymbolsQuickAccessProvider"/>
+			<item value="search.help"/>
 			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
 			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
 			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
@@ -120,7 +120,7 @@
 			<item value="1"/>
 		</list>
 		<list key="textArray">
-			<item value="passw"/>
+			<item value="isauthenticated()"/>
 			<item value="usuarior"/>
 			<item value="pom"/>
 			<item value="glob"/>
