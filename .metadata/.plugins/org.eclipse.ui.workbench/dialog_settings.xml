@@ -30,7 +30,7 @@
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
 		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
 		<list key="orderedElements">
-			<item value="search.in.help"/>
+			<item value="org.eclipse.jdt.ui.CompilationUnitEditoripartex/src/main/java/com/ipartex/dtos/MensajeDTO.java"/>
 			<item value="/amazoniaspring/src/main/java/com/amazonia/repositorios/UsuarioRepository.java"/>
 			<item value="/accesodatos/pom.xml"/>
 			<item value="/presentacionweb/src/main/java/com/ipartek/formacion/amazonia/presentacionweb/controladores/Globales.java"/>
@@ -60,7 +60,7 @@
 			<item value="/bases/src/com/ipartek/almacen/accesodatos/DaoProductoJdbc.java"/>
 		</list>
 		<list key="orderedProviders">
-			<item value="search.help"/>
+			<item value="org.eclipse.ui.editors"/>
 			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
 			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
 			<item value="org.eclipse.ui.ide/org.eclipse.ui.internal.ide.dialogs.OpenResourceQuickAccessComputer"/>
@@ -120,7 +120,7 @@
 			<item value="1"/>
 		</list>
 		<list key="textArray">
-			<item value="isauthenticated()"/>
+			<item value="mensaje"/>
 			<item value="usuarior"/>
 			<item value="pom"/>
 			<item value="glob"/>

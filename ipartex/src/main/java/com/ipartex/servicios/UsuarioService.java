@@ -13,4 +13,9 @@ public interface UsuarioService extends AnonimoService {
 	Usuario registrarUsuario(@Valid Usuario usuario);
 	
 	void conmutarLeGusta(Long id, String email);
+	
+	Mensaje publicarMensaje(String email, String texto);
+
+	Mensaje publicarRespuesta(Long id, String texto, String email);
+
 }

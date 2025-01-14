@@ -16,16 +16,33 @@ public class UsuarioServiceImpl extends AnonimoServiceImpl implements UsuarioSer
 
 	@Autowired
 	private PasswordEncoder passwordEncoder;
-	
+
 	@Autowired
 	private MensajeRepository mensajeRepository;
-	
+
 	@Autowired
 	private UsuarioRepository usuarioRepository;
-	
+
 	@Override
 	public Mensaje publicarMensaje(Mensaje mensaje) {
 		return mensajeRepository.save(mensaje);
+	}
+
+	@Override
+	public Mensaje publicarMensaje(String email, String texto) {
+		var usuario = buscarPorEmail(email);
+		var mensaje = Mensaje.builder().usuario(usuario).texto(texto).build();
+
+		return publicarMensaje(mensaje);
+	}
+
+	@Override
+	public Mensaje publicarRespuesta(Long id, String texto, String email) {
+		var usuario = buscarPorEmail(email);
+		var mensaje = Mensaje.builder().usuario(usuario).texto(texto).respuestaDe(Mensaje.builder().id(id).build())
+				.build();
+		
+		return publicarMensaje(mensaje);
 	}
 
 	@Override
@@ -36,20 +53,21 @@ public class UsuarioServiceImpl extends AnonimoServiceImpl implements UsuarioSer
 	@Override
 	public Usuario registrarUsuario(@Valid Usuario usuario) {
 		usuario.setPassword(passwordEncoder.encode(usuario.getPassword()));
-		
+
 		return usuarioRepository.save(usuario);
 	}
-	
+
 	@Override
 	public void conmutarLeGusta(Long id, String email) {
-		System.out.println(id);
-		System.out.println(email);
+		System.out.println("ID: " + id);
+		System.out.println("EMAIL: " + email);
 
 		var usuario = usuarioRepository.findByEmail(email);
 
 		System.out.println(usuario);
 
 		if (mensajeRepository.comprobarMeGusta(id, email) == null) {
+
 			var mensaje = mensajeRepository.findById(id).orElse(null);
 
 			mensaje.getLesGusta().add(usuario);
@@ -63,6 +81,5 @@ public class UsuarioServiceImpl extends AnonimoServiceImpl implements UsuarioSer
 			mensajeRepository.save(mensaje);
 		}
 	}
-
 
 }

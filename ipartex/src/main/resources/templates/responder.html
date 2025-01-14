@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html th:replace="~{_global :: plantilla(~{::title}, ~{::main})}"
+	xmlns:th="http://www.thymeleaf.org"
+	xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity6">
+<title>Mensajes Ipartex</title>
+
+<main class="container">
+	<div class="list-group">
+		<div th:replace="~{_fragmentos :: mensajeFrag (${mensaje}) }"></div>
+
+		<form
+			th:replace="~{_fragmentos :: formularioFrag(@{/responder}, ${mensaje.id})}"></form>
+
+		<div th:each="mensaje: ${mensaje.respuestas}">
+			<div th:replace="~{_fragmentos :: mensajeFrag (${mensaje}) }"></div>
+		</div>
+	</div>
+
+</main>
